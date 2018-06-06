@@ -27,34 +27,39 @@
     <!-- Navigation Bar-->
   
     <body>    
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Tag
-            <img src="Images/tag-1882328_960_720.png" width="30" height="30" class="d-inline-block align-top" alt="">  
-            </a>
-
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)
-                </span>
-                </a>
+            <a class="navbar-brand" href="#">Tag</a>
+            <img src="Images/tag-1882328_960_720.png" width="30" height="30" class="d-inline-block align-top" alt=""> 
+              <ul class="nav nav-pills">
+                 <li class="nav-item">
+                    <a class="nav-link" href="Home">Home</a>
                 </li>
-            
                 <li class="nav-item">
-                <a class="nav-link" href="#">Stories
-                </a>
+                <a class="nav-link" href="About">About</a>
+                </li> 
+              <ul class="nav nav-pills">
+                 <li class="nav-item">
+                    <a class="nav-link" href="Stories">Stories</a>
                 </li>
+              <ul class="nav nav-pills">
+                 <li class="nav-item">
+                    <a class="nav-link" href="Contact">Contact</a>
+                </li>
+ 
                 
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contact
-                </a>
-                </li>
-                
+                <form class="form-inline">
+                <a class="nav-link fab fa-facebook fa-2x" href="Facebook">Facebook</a>
+                </li>                
+
                 <li class="nav-item">
-                <a class="nav-link" href="#">About
-                </a>
+                <form class="form-inline">
+                <a class="nav-link fab fa-twitter-square fab fa-twitter-square fa-2x" href="Twitter">Twitter</a>
+                </li>
+
+                <li class="nav-item">
+                <form class="form-inline">
+                <a class="nav-link fab fa-instagram fa-2x" type="Instagram">Instagram</a>
                 </li>
                 
                 <li class="nav-item active">
@@ -62,32 +67,26 @@
                 <button class="btn btn-outline-success" type="button">Download
                 </button>
                 </li>
-                
-                <li class="nav-item">
-                <form class="form-inline">
-                <button class="btn btn-outline-success fab fa-facebook fa-2x" type="button">Facebook
-                </button>
-                </li>
-                
-                <li class="nav-item">
-                <form class="form-inline">
-                <button class="btn btn-outline-success fab fa-twitter-square fa-2x type="button">Twitter
-                </button>
-                </li>
-                
-                <li class="nav-item">
-                <form class="form-inline">
-                <button class="btn btn-outline-success fab fa-instagram fa-2x" type="button">Instagram
-                </button>
-                </li>
             </ul>
         </div>
         </nav>
 
+<div data-spy="scroll" data-target="navbar" data-offset="0">
+  <h4 id="Home">@Home</h4>
+  <p>...</p>
+  <h4 id="About">@About</h4>
+  <p>...</p>
+  <h4 id="Stories">@Stories</h4>
+  <p>...</p>
+  <h4 id="Contact">@Contact</h4>
+  <p>...</p>
+  </div>
+  
+  
     <!-- Embedded Video-->
-    
-  <div class="row">
-    <div class="col-lg-6">
+   
+  <div class="row" >
+    <div class="col-lg-6" role="navigation">
       <!-- 16:9 -->
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L48g1ZWLMdo"></iframe>
@@ -97,8 +96,8 @@
     <!-- Intro -->
 
     <section id="Intro">
-        <div class="col-lg-6">
-        <h2>Mission
+        <div class="col-lg-6" role="navigation">
+        <h2>About
         </h2>
         <p>Our team is passionate about keeping family and friends connected in a safe & convenient one-stop app.<br>Tag keeps friends and families connected no matter what unexpected distractions life throws in your path and plans.
         </p>
@@ -113,31 +112,38 @@
     <!-- Features -->
     <section id="Features">            
         <h2>Features</h2>
-         <div class="row">
-        <div class="col-lg-4 mb-4 sm-4">
-            <p><i class="fas fa-shopping-cart fa-5x"></i></p>
+         <div class="row" role="navigation">
+            <div class="col-lg-4 mb-4 sm-4">
+            <p><i class="fas fa-map"></i>
+            </p>
             <p>You can quickly and effortlessly
             <br>
             find any API with one click</p>
             <br>
-            <p><strong>FAST AND EASY!</strong></p>
-        </div>
-        <div class="col-lg-4 mb-4 sm-4">
-              <p><i class="fas fa-archive fa-5x"></i></p>
+            <p><strong>FAST AND EASY!</strong>
+            </p>
+            </div>
+            <div class="col-lg-4 mb-4 sm-4">
+              <p><i class="fas fa-map-pin"></i>
+              </p> 
               <p>We've teamed up with all major APIs
               <br>
-              which means a huge selection for you!</p>
+              which means a huge selection for you!
+              </p>
               <br>
-              <p><strong>1000's of APIs</strong></p>
-        </div>
-        <div class="col-lg-4 mb-4 sm-4">
-              <p><i class="fas fa-shipping-fast fa-5x"></i></p>
+              <p><strong>1000's of APIs</strong>
+              </p>
+            </div>
+            <div class="col-lg-4 mb-4 sm-4">
+              <p><i class="fas fa-address-book"></i>
+              </p>
               <p>No need to look anywhere else!
               <br>
               This is where it's at!</p>
               <br>
-              <p><strong>One Stop Shop</strong></p>
-        </div>
+              <p><strong>One Stop Shop</strong>
+              </p>
+            </div>
         </div>
 
   <!-- User Testimonials -->
@@ -146,7 +152,7 @@
 
 <div class="row"> 
     <div class="col-sm-4">
-        <div class="card h-100 text-center">
+        <div class="card h-100 text-center" role="navigation">
             <img class="img-fluid" src="Images/Brandon.jpg" class="img-thumbnail" alt="" >
             <div class="card-body">
                 <h4 class="card-title">Brandon, Student</h4>
@@ -179,7 +185,7 @@
     <section id="Contact_Details">
         <h2>Contact Details
         </h2>
-        <div class="col-lg-4 mb-4">
+        <div class="col-lg-4 mb-4" role="navigation">
             <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.8641726406013!2d-122.31827408435947!3d47.60933072918494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906ac8cbf49ba1%3A0x43d4a2852f7dc041!2sSeattle+University!5e0!3m2!1sen!2sus!4v1527819853988" width="200" height="200" frameborder="0" style="border:0" allowfullscreen>
             </iframe>
          </div>
@@ -203,7 +209,7 @@
   <div class="card-footer">
     Featured
   </div>
-  <div class="card-body">
+  <div class="card-body" role="navigation">
     <h5 class="card-title">Copyright &copy; Tag 2018</h5>
     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>    
         <ul class="social-links">

@@ -4,18 +4,23 @@
 /*Responsive breakpoints */
 
 /* Small devices (landscape phones, 544px and up) */
-@media (min-width: 540px) {  
- 
-}
+@media (min-width: 544px) {
+  }
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-@media (min-width: 720px) {  
- 
+@media (min-width: 768px) {
 }
  
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 960px) {
+@media (min-width: 992px) {
 }
+
+/* The scrollable area */
+
+<data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+
 
 body {
     padding-top: 30px;
@@ -25,6 +30,24 @@ body {
     padding: 1rem;
     background-color: rgba(255,255,255,0.1);
     color: gray;
+}
+
+/* Features */
+
+#features ul li {
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.fa-map{
+    font-size: 85px;
+}
+.fa-map-pin{
+    font-size: 85px;
+}
+.fa-address-book{
+    font-size: 85px;
 }
 
 .nav-item active {
