@@ -17,8 +17,6 @@
 
 /* The scrollable area */
 
-<data-spy="scroll" data-target=".navbar" data-offset="50">
-
 
 body {
     padding-top: 30px;
@@ -28,6 +26,7 @@ body {
     padding: 1rem;
     background-color: rgba(255,255,255,0.1);
     color: gray;
+    position: relative;
 }
 
 #contact {
