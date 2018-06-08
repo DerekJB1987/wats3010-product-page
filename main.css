@@ -20,8 +20,6 @@
 <data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
-
-
 body {
     padding-top: 30px;
     padding-bottom: 20px;
@@ -30,6 +28,14 @@ body {
     padding: 1rem;
     background-color: rgba(255,255,255,0.1);
     color: gray;
+}
+
+#contact {
+    padding: 75px;
+}
+
+#about {
+    padding: 75px;
 }
 
 /* Features */
@@ -59,5 +65,7 @@ body {
 }
 
 .card {
-    background-color: #00FF7A;
+    background-color: #B9C4CC;
+    padding-top: 50px;
+    margin: 0 auto;
 } 
