@@ -24,17 +24,32 @@ body {
     margin: 0 auto;
     width: 80%;
     padding: 1rem;
-    background-color: rgba(255,255,255,0.1);
     color: gray;
     position: relative;
 }
 
-#contact {
-    padding: 75px;
+#Home {
+    background-color: lime;
 }
 
-#about {
+
+#Contact {
     padding: 75px;
+    background-color: yellow;
+    color: white;
+}
+
+#About {
+    padding: 75px;
+    background-color: red;
+}
+
+#Features {
+    background-color: orange;
+}
+
+#Stories {
+    background-color: pink;
 }
 
 /* Features */
@@ -63,7 +78,7 @@ body {
      font-size: 12px;   
 }
 
-.card {
+#sectionfooter{
     background-color: #B9C4CC;
     padding-top: 50px;
     margin: 0 auto;
