@@ -28,6 +28,11 @@ body {
     position: relative;
 }
 
+h2 {
+    padding-bottom: 0px;
+    
+}
+
 #Home {
     background-color: white;
 	position: relative;
@@ -50,8 +55,9 @@ body {
 
 #Features {
     background-color: white;
-    display: list-item;
     color: black;
+    text-align: bottom;
+    display: flex;   
 }
 
 #Stories {
@@ -64,9 +70,18 @@ body {
     background-color: #B9C4CC;
     padding-top: 50px;
     margin: 0 auto;
-    color: #7BD658;
+    color: white;
+    display: auto;
+    padding-left: 95px;
 } 
 
+#copyright {
+    display: left
+}
+
+#social-media {
+    display: right;
+}
 
 
 /* Features */
@@ -87,14 +102,27 @@ body {
     font-size: 85px;
 }
 
-.nav-item active {
-     font-size: 24px;   
+.btn-outline-success {
+    font-size: 24px;
+    color: #fff !important;
+    text-transform: uppercase;
+    background: #ed3330;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+}
+
+.btn-outline-success:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
 }
 
 .nav-item {
-     font-size: 12px;   
-}
-
-#footer ul li {
-    list-style-type: none;
+     font-size: 12px;
+     list-style-type: none;
 }
