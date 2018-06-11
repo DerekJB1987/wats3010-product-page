@@ -104,13 +104,13 @@ h2 {
 
 .btn-outline-success {
     font-size: 24px;
-    color: #fff !important;
-    text-transform: uppercase;
+    color: #fff;
     background: #ed3330;
     padding: 20px;
     border-radius: 5px;
     display: inline-block;
     border: none;
+    text-transform: uppercase;
 }
 
 .btn-outline-success:hover {
