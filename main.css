@@ -46,6 +46,8 @@ h1 {
     background-color: white;
     color: black;
     border: 1px solid black;
+    display: block;
+    justify-content: space-between;
 }
 
 #About {
@@ -71,8 +73,6 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
-
-
 
 #footer {
     background-color: #605F5E;
