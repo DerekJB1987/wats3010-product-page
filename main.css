@@ -28,8 +28,8 @@ body {
     position: relative;
 }
 
-h2 {
-    padding-bottom: 0px;
+h1 {
+    padding:20px;
     
 }
 
@@ -107,23 +107,13 @@ h2 {
 }
 
 .btn-outline-success {
-    font-size: 24px;
-    color: #fff;
-    background: #ed3330;
-    padding: 20px;
-    border-radius: 5px;
-    display: inline-block;
-    border: none;
-    text-transform: uppercase;
+    color: rgba(30, 22, 54, 0.6);
+    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
 }
 
 .btn-outline-success:hover {
-    background: #434343;
-    letter-spacing: 1px;
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-    transition: all 0.4s ease 0s;
+    color: rgba(255, 255, 255, 0.85);
+    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
 }
 
 .nav-item {
