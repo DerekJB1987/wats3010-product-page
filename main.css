@@ -68,7 +68,11 @@ h1 {
     float: left;
     color: violet;
     border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
 }
+
+
 
 #footer {
     background-color: #605F5E;
