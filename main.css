@@ -83,14 +83,16 @@ h1 {
     padding-left: 95px;
 } 
 
-#copyright {
-    display: left
+.footer-flex {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-#social-media {
-    display: right;
+ul li {
+    display: inline;
+    padding: 25px
 }
-
 
 /* Features */
 
@@ -120,7 +122,7 @@ h1 {
     box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
 }
 
-.nav-item {
+.social-links {
      font-size: 12px;
      list-style-type: none;
 }
