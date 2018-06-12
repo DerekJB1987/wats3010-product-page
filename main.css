@@ -69,7 +69,6 @@ h1 {
     background-color: #605F5E;
     float: left;
     color: violet;
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
 }
