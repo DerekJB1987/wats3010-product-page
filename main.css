@@ -88,6 +88,10 @@ ul li {
     padding: 25px
 }
 
+ul.social-links {
+    display:flex;
+}
+
 /* Features */
 
 #features ul li {
