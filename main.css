@@ -46,11 +46,14 @@ h1 {
 }
 
 #Home {
-    background-color: white;
-	position: relative;
-	padding-bottom: 58%;
-	padding-top: 25px;
-	height: 0;
+    margin: auto;
+    display: block;
+    width:100%;
+    height:auto;
+    background-color: #605F5E;
+    padding: 20px;
+    border: 2px solid black;
+    
 }
 
 #About {
@@ -68,6 +71,7 @@ h1 {
     border: 2px solid black;
     justify-content: space-between;
     padding: 75px;
+    border: 2px solid black;
 }
 
 #Stories {
@@ -76,6 +80,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding: 55px;
+    border: 2px solid black;
 }
 
 #footer {
@@ -84,6 +89,7 @@ h1 {
     color: violet;
     display: auto;
     padding-top: 55px;
+    border: 2px solid black;
 } 
 
 ul li {
