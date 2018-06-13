@@ -15,11 +15,12 @@
 @media (min-width: 992px) {
 }
 
-/* The scrollable area */
-
-.navbar {
-    
+#navbar {
+    background-color: #808080;
 }
+
+
+/* The scrollable area */
 
 body {
     padding-top: 30px;
@@ -92,6 +93,7 @@ ul li {
 
 ul.social-links {
     display:flex;
+    color: blue;
 }
 
 /* Features */
@@ -127,6 +129,7 @@ ul.social-links {
 .social-links {
      font-size: 24px;
      list-style-type: none;
+     color: blue;
 }
 
 /* Google Map */
@@ -141,20 +144,23 @@ a {
 
 /* unvisited link */
 a:link {
-    color: blue;
+    color: #ff8000;
 }
 
 /* visited link */
 a:visited {
-    color: blue;
+    color: #ff8000;
+    text-decoration: underline
 }
 
 /* mouse over link */
 a:hover {
     color: red;
+    font-size:150%;
+    text-decoration: underline
 }
 
 /* selected link */
 a:active {
-    color: black;
+    color: #ff8000;
 }
