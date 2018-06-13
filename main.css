@@ -3,9 +3,16 @@
 
 /*Responsive breakpoints */
 
-/* Small devices (landscape phones, 544px and up) */
-@media (min-width: 544px) {
-  }
+
+@media (min-width:375px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media (min-width: 600px) {
+
+}
  
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {
@@ -92,15 +99,20 @@ h1 {
     border: 2px solid black;
 } 
 
+/* List */
+
 ul li {
     display: inline;
     padding: 25px
 }
 
+/* Footer Social Media Links */
+
 ul.social-links {
     display:flex;
     color: blue;
 }
+
 
 /* Features */
 
