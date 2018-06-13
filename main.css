@@ -17,6 +17,9 @@
 
 /* The scrollable area */
 
+.navbar {
+    
+}
 
 body {
     padding-top: 30px;
@@ -26,7 +29,6 @@ body {
     padding: 1rem;
     color: gray;
     position: relative;
-    height: auto;
 }
 
 h1 {
@@ -36,9 +38,9 @@ h1 {
 
 #Contact {
     padding: 75px;
-    background-color: white;
+    background-color: #605F5E;
     color: black;
-    border: 1px solid black;
+    border: 2px solid black;
     display: block;
 }
 
@@ -54,15 +56,15 @@ h1 {
     padding: 55px;
     background-color: #605F5E;
     color: violet;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 #Features {
-    background-color: white;
-    color: black;
+    background-color: #605F5E;
+    color: violet;
     text-align: center;
     display: flex; 
-    border: 1px solid black;
+    border: 2px solid black;
     justify-content: space-between;
     padding: 75px;
 }
@@ -145,7 +147,7 @@ a:link {
 
 /* visited link */
 a:visited {
-    color: violet;
+    color: blue;
 }
 
 /* mouse over link */
