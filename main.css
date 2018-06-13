@@ -26,6 +26,7 @@ body {
     padding: 1rem;
     color: gray;
     position: relative;
+    height: auto;
 }
 
 h1 {
@@ -50,7 +51,7 @@ h1 {
 }
 
 #About {
-    padding: 75px;
+    padding: 55px;
     background-color: #605F5E;
     color: violet;
     border: 1px solid black;
@@ -63,6 +64,7 @@ h1 {
     display: flex; 
     border: 1px solid black;
     justify-content: space-between;
+    padding: 75px;
 }
 
 #Stories {
@@ -71,15 +73,15 @@ h1 {
     color: violet;
     display: flex;
     justify-content: space-between;
+    padding: 55px;
 }
 
 #footer {
     background-color: #605F5E;
-    padding-top: 50px;
     margin: 0 auto;
     color: violet;
     display: auto;
-    padding-left: 95px;
+    padding-top: 55px;
 } 
 
 ul li {
@@ -93,7 +95,7 @@ ul.social-links {
 
 /* Features */
 
-#features ul li {
+#Features ul li {
 	display: inline-block;
 	padding-right: 20px;
 	padding-left: 20px;
@@ -109,6 +111,7 @@ ul.social-links {
     font-size: 85px;
 }
 
+/* Call to Action */
 .btn-outline-success {
     color: rgba(30, 22, 54, 0.6);
     box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
@@ -119,12 +122,38 @@ ul.social-links {
     box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
 }
 
+/* Social Media */
 .social-links {
-     font-size: 12px;
+     font-size: 24px;
      list-style-type: none;
 }
 
+/* Google Map */
 iframe {
     display: block;
     margin-left: 25px;
+}
+
+a {
+    padding: 5px;
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: violet;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: black;
 }
