@@ -39,7 +39,7 @@ h1 {
 #Contact {
     padding: 75px;
     background-color: #605F5E;
-    color: black;
+    color: violet;
     border: 2px solid black;
     display: block;
 }
@@ -71,7 +71,6 @@ h1 {
 
 #Stories {
     background-color: #605F5E;
-    float: left;
     color: violet;
     display: flex;
     justify-content: space-between;
@@ -116,12 +115,12 @@ ul.social-links {
 /* Call to Action */
 .btn-outline-success {
     color: rgba(30, 22, 54, 0.6);
-    box-shadow: rgba(30, 22, 54, 0.4) 0 0px 0px 2px inset;
+    box-shadow: rgba(255, 0, 0) 0 0px 0px 2px inset;
 }
 
 .btn-outline-success:hover {
     color: rgba(255, 255, 255, 0.85);
-    box-shadow: rgba(30, 22, 54, 0.7) 0 0px 0px 40px inset;
+    box-shadow: rgba(255, 0, 0) 0 0px 0px 40px inset;
 }
 
 /* Social Media */
